@@ -1,3 +1,6 @@
-# Pokémon game made by NoxGamingQC
+# Pokémon fan game
 
-P.S. This is a fan game and I don't own any of the license in there.
+## Disclaimers
+
+This game is not affiliated or associated with any other company.
+All logos, trademarks and trade names used herein are the property of their respective owners.
