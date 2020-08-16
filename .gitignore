@@ -1,4 +1,4 @@
-./Debug/*.ilk
-./Debug/*.pdb
-./vs
-./Pokémon/Debug/*
+/Debug/*.ilk
+/Debug/*.pdb
+/vs
+/Pokémon/Debug/*
