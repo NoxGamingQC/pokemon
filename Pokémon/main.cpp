@@ -1,8 +1,24 @@
-#include <SDL.h>
+/***********************************************************
+* Project Name: Pokémon
+* File Name: main.cpp
+* Started on: 2020-08-15
+************************************************************
+* Author: Jimmy Béland-Bédard (NoxGamingQC)
+* Last update author: Jimmy Béland-Bédard (NoxGamingQC)
+* Last update: 2020-08-17
+************************************************************
+* Description:
+************************************************************/
+
 #include <iostream>
+#include <string>
+#include <SDL.h>
 #include "combat.cpp"
 #include "encounter.cpp"
+#include "game.cpp"
+#include "options.cpp"
 
+using namespace std;
 
 int createWindow(SDL_Window* window, SDL_Renderer* renderer) {
     window = SDL_CreateWindow("Pokemon", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 800, 600, SDL_WINDOW_SHOWN);

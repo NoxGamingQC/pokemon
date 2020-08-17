@@ -1,2 +1,4 @@
 ﻿  main.cpp
-  Pokémon.vcxproj -> C:\Users\Jimmy\Desktop\Pokémon\Pokémon\Debug\Pokémon.exe
+C:\Users\Jimmy\Desktop\Pokémon\Pokémon\Pokémon\main.cpp(1,1): error C2019: directive du préprocesseur attendue, '#' rencontré
+  options.cpp
+  Génération de code en cours...
