@@ -1,4 +1,4 @@
-﻿  main.cpp
-C:\Users\Jimmy\Desktop\Pokémon\Pokémon\Pokémon\main.cpp(1,1): error C2019: directive du préprocesseur attendue, '#' rencontré
-  options.cpp
-  Génération de code en cours...
+﻿  options.cpp
+C:\Users\Jimmy\Desktop\Pokémon\Pokémon\Pokémon\options.cpp(26,31): warning C4018: '<' : incompatibilité signed/unsigned
+C:\Users\Jimmy\Desktop\Pokémon\Pokémon\Pokémon\options.cpp(31,48): warning C4018: '<' : incompatibilité signed/unsigned
+  Pokémon.vcxproj -> C:\Users\Jimmy\Desktop\Pokémon\Pokémon\Debug\Pokémon.exe

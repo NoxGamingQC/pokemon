@@ -1,0 +1,4 @@
+Resolution: 800x600
+Text Speed: Normal
+Frame_Color: #ff0000
+Language: fr_ca

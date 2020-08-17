@@ -10,13 +10,7 @@
 * Description:
 ************************************************************/
 
-#include <iostream>
-#include <string>
-#include <SDL.h>
-#include "combat.cpp"
-#include "encounter.cpp"
-#include "game.cpp"
-#include "options.cpp"
+#include "main.h"
 
 using namespace std;
 
@@ -28,7 +22,7 @@ int createWindow(SDL_Window* window, SDL_Renderer* renderer) {
     SDL_RenderPresent(renderer);
 
     if (window == 0) {
-        std::cout << "Error while creating the window : " << SDL_GetError() << std::endl;
+        cout << "Error while creating the window : " << SDL_GetError() << std::endl;
         SDL_Quit();
 
         return -1;
@@ -38,7 +32,7 @@ int createWindow(SDL_Window* window, SDL_Renderer* renderer) {
 
 int initializationOfSDL() {
     if (SDL_Init(SDL_INIT_VIDEO) < 0) {
-        std::cout << "Error during the initialization of  SDL : " << SDL_GetError() << std::endl;
+        cout << "Error during the initialization of  SDL : " << SDL_GetError() << std::endl;
         SDL_Quit();
 
         return -1;
@@ -62,6 +56,7 @@ int main(int argc, char** argv)
 
     initializationOfSDL();
     createWindow(window, renderer);
+    checkSettingsFile();
 
     while (!isEnding) {
         SDL_WaitEvent(&events);
