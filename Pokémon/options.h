@@ -5,4 +5,7 @@
 #include <string>
 #include <SDL.h>
 
-int checkSettingsFile();
+using namespace std;
+
+int checkSettingsFile(int language);
+int getLanguage(const char *languageCode[], const int languageCount);

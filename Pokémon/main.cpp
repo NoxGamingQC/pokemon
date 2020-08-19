@@ -52,11 +52,13 @@ int main(int argc, char** argv)
     SDL_Window* window(0);
     SDL_Renderer* renderer(0);
     SDL_Event events;
+    int language = 0;
     bool isEnding(false);
 
     initializationOfSDL();
     createWindow(window, renderer);
-    checkSettingsFile();
+    checkSettingsFile(language);
+    cout << "Current language: " << languageCode[getLanguage(languageCode, languageCount)] << endl;
 
     while (!isEnding) {
         SDL_WaitEvent(&events);
